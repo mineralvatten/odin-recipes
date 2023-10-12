@@ -5,13 +5,28 @@ body {
     color: rgb(255, 255, 0);
     
 }
+.index {
+    margin: 10%;
+}
 h1 {
+    width: 300px;
+    box-sizing: border-box;
+    display:block;
+    margin:0px auto;
     color: rgb(255, 255, 0);
     background-color: rgb(70, 179, 187);
+    border: solid;
+    border-color: black;
+    border-width: 2px;
     
 }
 ul, ol {
     /*text-align: center;*/
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    box-sizing: border-box;
+    background-color: rgb(70, 179, 187);
     list-style-position: inside;
     text-align:left;
     display:block;
